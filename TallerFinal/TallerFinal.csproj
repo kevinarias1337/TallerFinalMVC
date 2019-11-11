@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D905E81D-E3D8-43D7-9B5C-304A48B2293E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TallerFinal</RootNamespace>
+    <AssemblyName>TallerFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Read.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Read.Designer.cs">
+      <DependentUpon>Read.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadCreate.Designer.cs">
+      <DependentUpon>ReadCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadCreateDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadCreateDelete.Designer.cs">
+      <DependentUpon>ReadCreateDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadCreateDeleteUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadCreateDeleteUpdate.Designer.cs">
+      <DependentUpon>ReadCreateDeleteUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidadorSintaxis.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Read.resx">
+      <DependentUpon>Read.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadCreate.resx">
+      <DependentUpon>ReadCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadCreateDelete.resx">
+      <DependentUpon>ReadCreateDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadCreateDeleteUpdate.resx">
+      <DependentUpon>ReadCreateDeleteUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CONTROLADOR\CONTROLADOR.csproj">
+      <Project>{9934187f-c5d3-4131-b006-3db74b034887}</Project>
+      <Name>CONTROLADOR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja.ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-clip-art-inventory-management-software-inventory-c-apakah-manajemen-inventory-itu-penting-article-5c0bfccfb7f956.3592651915442894877536.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-ergonomics-in-the-warehouse-warehouse-management-s-5b0a65b6ec0273.3397523715274080549667.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-inventory-management-software-inventory-control-ca-inventory-management-5b3f7886a8ad85.8414975115308862786909.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-arrow-left-arrow-5ac5e89fdffdc1.8459894415229195839175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-inventory-management-software-inventory-turnover-g-inventory-management-5b38fde2592084.5869066315304616663651.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-handyman-home-repair-vector-graphics-clip-art-illu-ampquotampquot-5cbed0c75bde19.4819056815560091593763.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-inventory-management-software-warehouse-management-inventory-management-5b43314a90e3b5.9336076715311301865935.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-zoho-office-suite-zoho-corporation-customer-relati-inventory-management-software-5b1d3843aa29b1.129569411528641603697.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

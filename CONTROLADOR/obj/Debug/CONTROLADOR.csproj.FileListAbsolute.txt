@@ -1,0 +1,9 @@
+D:\TallerFinal\CONTROLADOR\bin\Debug\CONTROLADOR.dll
+D:\TallerFinal\CONTROLADOR\bin\Debug\CONTROLADOR.pdb
+D:\TallerFinal\CONTROLADOR\bin\Debug\MODELO.dll
+D:\TallerFinal\CONTROLADOR\bin\Debug\MODELO.pdb
+D:\TallerFinal\CONTROLADOR\obj\Debug\CONTROLADOR.csprojAssemblyReference.cache
+D:\TallerFinal\CONTROLADOR\obj\Debug\CONTROLADOR.csproj.CoreCompileInputs.cache
+D:\TallerFinal\CONTROLADOR\obj\Debug\CONTROLADOR.csproj.CopyComplete
+D:\TallerFinal\CONTROLADOR\obj\Debug\CONTROLADOR.dll
+D:\TallerFinal\CONTROLADOR\obj\Debug\CONTROLADOR.pdb

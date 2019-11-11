@@ -1,0 +1,6 @@
+D:\TallerFinal\MODELO\bin\Debug\MODELO.dll
+D:\TallerFinal\MODELO\bin\Debug\MODELO.pdb
+D:\TallerFinal\MODELO\obj\Debug\MODELO.csprojAssemblyReference.cache
+D:\TallerFinal\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+D:\TallerFinal\MODELO\obj\Debug\MODELO.dll
+D:\TallerFinal\MODELO\obj\Debug\MODELO.pdb

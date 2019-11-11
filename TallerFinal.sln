@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerFinal", "TallerFinal\TallerFinal.csproj", "{D905E81D-E3D8-43D7-9B5C-304A48B2293E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODELO", "MODELO\MODELO.csproj", "{A53F1A22-D619-419C-AB77-3980D9393DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONTROLADOR", "CONTROLADOR\CONTROLADOR.csproj", "{9934187F-C5D3-4131-B006-3DB74B034887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D905E81D-E3D8-43D7-9B5C-304A48B2293E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D905E81D-E3D8-43D7-9B5C-304A48B2293E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D905E81D-E3D8-43D7-9B5C-304A48B2293E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D905E81D-E3D8-43D7-9B5C-304A48B2293E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53F1A22-D619-419C-AB77-3980D9393DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53F1A22-D619-419C-AB77-3980D9393DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53F1A22-D619-419C-AB77-3980D9393DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53F1A22-D619-419C-AB77-3980D9393DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9934187F-C5D3-4131-B006-3DB74B034887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9934187F-C5D3-4131-B006-3DB74B034887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9934187F-C5D3-4131-B006-3DB74B034887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9934187F-C5D3-4131-B006-3DB74B034887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18AF78EB-184D-4A12-BCA8-033765C4420D}
+	EndGlobalSection
+EndGlobal
